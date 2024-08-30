@@ -1,0 +1,217 @@
+
+
+
+
+*{
+
+  margin: 0;
+}
+.logo{
+  height: 40px;
+  text-align: center;
+  width: 50px;
+    border-radius: 50px;
+}
+ .nav-container {
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    padding: 1%;
+   background-color: #1450fe;
+
+  }
+  .nav-container .nav-ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 65PX;
+list-style-type: none;
+}
+
+ul a{
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+.main-nav {
+  display: flex;
+  gap: 5%;
+  text-decoration: none;
+  list-style: none;
+ justify-content: flex-end;
+ text-align: right;
+
+}
+
+.footer{
+  position: fixed;
+  padding: 1%;
+  bottom: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: large;
+background-color: #1450fe;
+color: white;
+width: -webkit-fill-available;
+}
+
+
+
+
+/* sign up*/
+/* Ensure the container fills the viewport height */
+.con-sign {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* height: 100vh; Full viewport height */
+
+  /* background-color: #f0f0f0; Optional: background color for the parent container */
+}
+
+/* Styling for the signup container */
+.signup-container {
+  text-align: center;
+  background-color: rgb(207, 194, 194);
+  padding: 2%;
+  border-radius: 5px;
+  width: 300px; /* Fixed width for the form */
+}
+
+/* Styling for form elements */
+.signup-container input[type="text"],
+.signup-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  background-color: antiquewhite;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* Ensure padding does not affect width */
+}
+
+/* Styling for the submit button */
+.signup-container input[type="submit"] {
+  background-color: #2852d0;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.signup-container input[type="submit"]:hover {
+  background-color: #636c86;
+}
+
+
+
+
+/* Add product
+ */
+ .container-prod{
+
+ height: 100%;
+
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ margin-top: 5%;
+
+ }
+
+ .container-prod .prod-sub{
+height: 100%;
+width: max-content;
+padding: 2%;
+text-align: center;
+border-radius: 5%;
+  background-color: #edeef2;
+
+ }
+ .prod-sub input[type="text"]{
+  display: flex;
+padding: 4%;
+border-radius: 6px;
+  margin-top: 5%;
+  justify-content: center;
+  width: fit-content;
+
+ }
+
+ input[type="submit"]{
+  background-color: #2852d0;
+  width: max-content;
+  justify-content: center;
+  margin-top: 5%;
+  width: 105%;
+  /* height: 100%; */
+  color: white;
+  font-weight: 600;
+
+  padding: 4%;
+  /* border: 1px solid red; */
+  border: none;
+  border-radius: 6px;
+
+ }
+ 
+ input[type="submit"]:hover{
+  background-color: rgb(73, 130, 181);
+  color: black;
+ }
+ .invalid-input{
+  color: red;
+  font-size: small;
+ text-align: right;
+ font-weight: 600;
+ align-items: flex-start;
+ }
+
+
+
+ /* product list page*/
+
+ .product-list{
+  /* border: 1px solid red; */
+margin-top: 2%;
+margin-bottom: 5%;
+
+  text-align: center;
+  
+  /* display: block; */
+ }
+ .product-list input{
+
+  padding: 1%;
+  margin-top: 2%;
+  width: 30%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .product-list ul{
+    top: 5%;
+    
+ }
+ .product-list ul li {
+  
+  display: inline-table;
+ 
+  font-weight: 700;
+  border: 1px solid rgb(39, 49, 194);
+  padding: 5px;
+  width: 150px;
+  margin: 3px;
+ }
+ .product-list ul li button{
+  color: #2852d0;
+  font-weight: 700;
+  font-size: small;
+ }
+
+ .product-list ul li a{
+  color: #2852d0;
+ }
+ 
